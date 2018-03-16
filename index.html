@@ -3,9 +3,10 @@
 <head>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
   <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <script type="text/javascript" src="scripts.js"></script>
 </head>
 
@@ -22,7 +23,10 @@
         <nav class="navbar navbar-fixed-top navbar-inverse" style="background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%); background-repeat: repeat-x;">
           <div class="container">
             <div class="navbar-header">
+              <a href="#start">
              <img src="https://evys.ru/static/images/EVYS.png" class="navbar-brand" style="height: 65px; width: 180px;">
+              </a>
+
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -44,8 +48,8 @@
                     </a>
                   </li>
                   <li role="presentation" class="">
-                    <a role="button" href="#" style="padding-bottom: 10px; margin-top: 8px;">
-                      <p style="color: white;">Контакты</p>
+                    <a role="button" href="#section3" style="padding-bottom: 10px; margin-top: 8px;">
+                      <p style="color: white;">Отзывы</p>
                     </a>
                   </li>
             </ul>
@@ -55,7 +59,7 @@
         <!-- navigation/ -->
 
         <!-- /section start -->
-       <div class="container">
+       <div class="container" id="start">
 
          <!-- /block 2 nedely.. -->
           <div class="row">
@@ -86,7 +90,7 @@
               <!-- /join btn -->
               <div class="col-md-6 col-sm-6">
                 <div style="transform: translate3d(0px, 0px, 0px); opacity: 1; display: flex; justify-content: center; align-items: center;">
-                  <a tabindex="0" href="app/login" style="border: 1px solid rgb(3, 169, 244); box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; vertical-align: middle; height: 36px; line-height: 36px; min-width: 88px; color: rgba(0, 0, 0, 0.87); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 25px; user-select: none; overflow: hidden; background: rgb(3, 169, 244); text-align: center;">
+                  <a tabindex="0" href="https://evys.ru/app/login" target="_blank" style="border: 1px solid rgb(3, 169, 244); box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; vertical-align: middle; height: 36px; line-height: 36px; min-width: 88px; color: rgba(0, 0, 0, 0.87); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 25px; user-select: none; overflow: hidden; background: rgb(3, 169, 244); text-align: center;">
                     <div>
                       <span style="color: white; font-size: 18px; padding: 8px; font-family: MuseoSans, sans-serif;">Присоединиться</span>
                     </div>
@@ -285,7 +289,7 @@
 
               <!-- /section 2 btn -->
               <div class="col-md-12">
-                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 20px 0px;">
+                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; padding-top: -30px;">
                   <h2 style="transform: translate3d(0px, 0px, 0px); opacity: 1; font-family: MuseoSans, sans-serif; text-align: center;">
                     Присоединяйся<br>Прямо сейчас
                   </h2>
@@ -306,7 +310,6 @@
       <!-- section2/ -->
 
       <!-- /section3 -->
-          <div>
               <div class="container" id="section3">
                 <div class="row" style="margin-left: auto; margin-right: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 20px 0px;">
                   <!-- /title of section3 and line -->
@@ -320,7 +323,10 @@
                     </div>
                   </div>
                   <!-- title of section3 and line/ -->
+
+                  <!-- /video block -->
                   <div>
+                    <!-- /video1 -->
                     <div class="col-md-4">
                       <img src="https://s17.postimg.org/q0g09l20v/screen.jpg" class="screen" style="max-height: 200px; margin-right: 50px;">
                       <div style="text-align: center;">
@@ -328,6 +334,9 @@
                         <p>"Очень давно хотела стать репетитором, но не знала с чего начать, как найти ученика и как организовать процесс обучения..."</p>
                       </div>
                     </div>
+                    <!-- video1/ -->
+
+                    <!-- /video2 -->
                     <div class="col-md-4">
                       <img src="https://s17.postimg.org/q0g09l20v/screen.jpg" class="screen" style="max-height: 200px;">
                       <div style="text-align: center;">
@@ -335,6 +344,9 @@
                         <p>"Нашла ученика уже после 1 занятия. Рекомендует курс студентам и аспирантам, которые хотят реализовать свои знания в сфере преподавания и при этом получать доход."</p>
                       </div>
                     </div>
+                    <!-- video2/ -->
+
+                    <!-- /video3 -->
                     <div class="col-md-4">
                       <img src="https://s17.postimg.org/q0g09l20v/screen.jpg" class="screen" style="max-height: 200px; margin-left: 10px;">
                       <div style="text-align: center; margin-left: 10px;">
@@ -342,12 +354,56 @@
                         <p>"К концу курса, благодаря правильно составленным анкетам, я получил ученика и начал зарабатывать деньги".</p>
                       </div>
                     </div>
+                    <!-- video3/ -->
+
+                  </div>
+                  <!-- video block/ -->
+
+                </div>
+
+                <!-- /section3 btn -->
+                <div class="col-md-12">
+                  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; padding-top: -30px;">
+                    <a tabindex="0" href="https://evys.ru/app/login" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px 0px 20px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; vertical-align: middle; height: 36px; line-height: 36px; min-width: 88px; color: rgba(0, 0, 0, 0.87); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; border-radius: 25px; user-select: none; overflow: hidden; background-color: rgb(3, 169, 244); text-align: center;">
+                      <div>
+                        <span style="color: white; font-size: 18px; padding: 8px; font-family: MuseoSans, sans-serif;">Попробовать</span>
+                      </div>
+                    </a>
                   </div>
                 </div>
+                <!-- section3 btn/ -->
+
+
               </div>
-        </div>
         <!-- section3/ -->
 
+        <!-- /footer -->
+        <div style="background-color: rgb(54, 54, 54); padding: 20px;">
+          <!-- /social icons -->
+          <div style="display: flex; justify-content: flex-end; margin-top: 30px;">
+            <a></a>
+            <a></a>
+            <a></a>
+            <a></a>
+          </div>
+          <!-- social icons/ -->
+
+          <!-- /contacts -->
+          <div style="display: flex; justify-content: flex-end; margin-top: 30px;">
+            <span style="color: white; font-family: MuseoSans, sans-serif; font-size: 12px;">+8 800 123 45 67(Россия)</span>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end; margin-top: 30px;">
+            <span style="color: white; font-family: MuseoSans, sans-serif; font-size: 12px;">+8 800 123 45 67(Россия)</span>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end; margin-top: 30px;">
+            <span style="color: white; font-family: MuseoSans, sans-serif; font-size: 12px;">info@evys.ru</span>
+          </div>
+          <!-- contacts/ -->
+
+        </div>
+        <!-- footer -->
 
   </div>
 
